@@ -1,0 +1,67 @@
+.nav{
+    display: flex;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+   justify-content: center;
+   border-color: red;
+}
+.NosArtistes{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+.nav a{
+    font-size: 25px;
+    margin-right: 30px;
+    padding: 50px;
+    color: rgb(29, 251, 103);
+}
+.imageartiste{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 30px;
+}
+body{
+    background-image: url(arriereplanindex.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.messagefansite{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    color: red;
+    font-size: 30px;
+    padding: 20px;
+}
+.ZIZOU{
+    display: flex;
+    flex-direction: row;
+    align-items:space-between;
+    color: white;
+    font-size: 26px;
+    padding-left: 200px;
+}
+.ludo{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    color: rgb(253, 4, 4);
+    font-size: 26px;
+    padding-left: 500px;
+    
+}
+.leo{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    color: rgb(0, 255, 247);
+    font-size: 26px;
+    padding-right: 300px;
+    padding-left: 100px;
+}
