@@ -16,7 +16,8 @@
     font-size: 25px;
     margin-right: 30px;
     padding: 50px;
-    color: rgb(29, 251, 103);
+    color: red;
+    font-size: 36px;
 }
 .imageartiste{
     display: flex;
