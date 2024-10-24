@@ -14,7 +14,7 @@
    border-color: red;
 }
 body{
-    background-image:url(arriereplanludovico.jpg);
+    background-image:url(../images/arriereplanludovico.jpg);
     background-repeat: repeat;
     
 }
@@ -35,6 +35,7 @@ h2{
     justify-content:space-evenly;
 }
 h1{
+    text-align: center  ;
     color: rgb(223, 9, 9)
 }
 .greenpeace{
@@ -58,7 +59,27 @@ h1{
 }
 .facebook{
     width: 20px;
+
 }
 .instagram{
     width: 20px;
+}
+footer{
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: rgb(82, 0, 247);
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-right: 30px;
+    
+}
+.insta{
+color:rgb(255, 0, 0)
+}
+.face{
+    color:rgb(255, 0, 0)
 }

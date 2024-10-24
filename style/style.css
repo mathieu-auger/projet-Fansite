@@ -26,11 +26,15 @@
     padding: 30px;
 }
 body{
-    background-image: url(arriereplanindex.png);
+    background-image: url(../images/arriereplanindex.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 30px;
+}
+.imageartiste img{
+    width:200px; 
+    height:200px;
 }
 .messagefansite{
     display: flex;
