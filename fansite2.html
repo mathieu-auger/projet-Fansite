@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fansite2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Zidane</title>
+
 </head>
 <body class="arriereplan">
     
     <header>
-        <section class="nav">
-        <nav>
-        <a href="Index.html">Home</a>
-        <a href="fansite1.htlm">De Vinci</a>
-        <a href="fansite2.html">Zizou</a>
-        <a href="fansite3.html">Ludovico</a> 
+        <nav class="nav">
+            <a href="#actualité">Actualité</a>
+            <a href="#carrière">Réalisations</a>
+            <a href="#Événements passé et a venir"> Événements passé et a venir</a>
+            <a href="#photos et vidéos">photos et vidéos</a>
+            <a href="#Liens vers d’autres sites de fans">Liens vers d’autres sites de fans</a>
         </nav>
+        <span class=" menu_mobile material-symbols-outlined">
+            menu
+        </span>    
     </header>
 <main>
-    
-<ul class="foot">
-    <img src="images/tenor.gif"alt="gif de zizou">
-    <li><a href="#actualité">Actualité</a></li>
-    <li><a href="#carrière">Réalisations</a></li>
-    <li><a href="#Événements passé et a venir"> Événements passé et a venir</a><li>
-    <li><a href="#photos et vidéos">photos et vidéos</a></li>
-    <li><a href="#Liens vers d’autres sites de fans">Liens vers d’autres sites de fans</a></li>
-    
-    
-</ul>
+    <div id="menu">
+        <span id="menu_controller" class="material-symbols-outlined menu_controller">
+            home
+        </span>
+        <div id="submenu">
+            <a href="Index.html">Home</a>
+            <a href="fansite1.htlm">De Vinci</a>
+            <a href="fansite2.html" style="text-decoration: underline;">Zizou</a>
+            <a href="fansite3.html">Ludovico</a>         
+        </div>
+    </div>
+
+    <section id="hero">
+        <ul class="foot">
+
+        </ul>
+    </section>
+
     <h1>zinédine zidane</h1>
     
-    <div class="héro-text">
         <section class="photozizou">
             <img src="images/zizou.jpg"alt="photo de zinédine zidane ">
         </section>
@@ -88,6 +100,7 @@
              Bien qu'il ait pris sa retraite après la défaite en finale de la Coupe du Monde 2006
             son impact sur le football international reste inégalé.
             </p>
+        </section>
         <section  id="Événements passé et a venir">
             <h2>Événements passé et a venir</h2>
             <p> Moments historiques : Cette section met en avant les moments clés de la carrière de Zidane.
@@ -100,27 +113,28 @@
             Annonces concernant des conférences où Zidane s’exprimera sur le football, 
             le leadership ou le management sportif.
             Apparitions publiques : que ce soit des événements caritatifs ou des cérémonies de remise de prix.
-         </p> 
-         <h2>photos et vidéos</h2>
-
-         <section id="photosetvidéos">
-         <img src="images/photo1.jpg"alt="image de zinédine zidane"> 
-         <img src="images/photo2.jpg"alt="un beau tire de zizou">
-         <img src="images/photo4.jpg"alt="portrait de zizou">
-         <img src="images/phtoto3.jpg"alt="zizou">
+            </p> 
         </section>
-        <div>
-        <hr>
-        <figure>
-            <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/dXzmoLcnMe0?si=NgSww8Rj1MJXDG_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <figcaption>Dans cette séquence, Zidane, capitaine de l'équipe de France
-                est confronté à Marco Materazzi, un défenseur italien. Après un échange verbal,
-                Zidane, visiblement frustré, se retourne soudainement et assène un violent coup de tête dans la poitrine de Materazzi.
-                 Ce geste entraîne immédiatement l'expulsion de Zidane avec un carton rouge.
-           </figcaption>
-        </figure>
-            
-        </div>
+        <section >
+            <h2>photos et vidéos</h2>
+
+            <div id="photosetvidéos">
+                <img src="images/photo1.jpg"alt="image de zinédine zidane">
+                <img src="images/photo2.jpg"alt="un beau tire de zizou">
+                <img src="images/photo4.jpg"alt="portrait de zizou">
+                <img src="images/phtoto3.jpg"alt="zizou">    
+            </div>
+            <hr>
+            <div id="video_container">
+                <iframe class="videos" src="https://www.youtube.com/embed/dXzmoLcnMe0?si=NgSww8Rj1MJXDG_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>Dans cette séquence, Zidane, capitaine de l'équipe de France
+                    est confronté à Marco Materazzi, un défenseur italien. Après un échange verbal,
+                    Zidane, visiblement frustré, se retourne soudainement et assène un violent coup de tête dans la poitrine de Materazzi.
+                     Ce geste entraîne immédiatement l'expulsion de Zidane avec un carton rouge.
+                </figcaption>
+            </div>
+
+        </section>
         </hr>
          <section id="Liens vers d’autres sites de fans">
             <h2> Liens vers d’autres sites de fans</h2>
@@ -129,13 +143,12 @@
             <h2>Liens vers les reseaux sociaux</h2>
 
             <div class="logo"> 
-                <img class="icone" src="images/instagram-icone-icon.png"><a href="https://www.instagram.com/zidane?igsh=MWEwcGs0NDYwc2VnaA==">zizou</a>
-                <img class="icone" src="images6/OIP (2).jpg"><a href="https://www.facebook.com/p/Zinedine-zidane-Officiel">zizou</a>
+                <img class="icone" src="images/instagram-icone-icon.png"><a href="https://www.instagram.com/zidane?igsh=MWEwcGs0NDYwc2VnaA==" target="_blank">zizou</a>
+                <img class="icone" src="images/OIP (2).jpg"><a href="https://www.facebook.com/p/Zinedine-zidane-Officiel" target="_blank">zizou</a>
             </div>
-        </section>
-    </div>
+         </section>
         
-</hr>
+<hr>
     </div> 
    
 </main>
@@ -144,4 +157,16 @@
 
     </footer>
 </body>
+<script>
+     function showmenu() {
+        const controller_menu = document.getElementById("menu_controller");
+        const menu = document.getElementById("menu");
+        if (menu.style.display === "none" || menu.style.display === "") {
+            menu.style.display = "block!important";
+        } else {
+            menu.style.display = "none";
+        }
+    }
+
+</script>
 </html>
